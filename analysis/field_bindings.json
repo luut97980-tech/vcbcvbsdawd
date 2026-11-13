@@ -1,0 +1,1314 @@
+[
+  {
+    "line": 1342,
+    "namespace": "",
+    "owner": "FrameWork",
+    "field": "AntiCheatListener",
+    "old": 344,
+    "vng": {
+      "type": "AntiCheatListener",
+      "offset": 344
+    },
+    "global": {
+      "type": "AntiCheatListener",
+      "offset": 344
+    },
+    "constant": "FrameWork_AntiCheatListener"
+  },
+  {
+    "line": 1345,
+    "namespace": "",
+    "owner": "AntiCheatListener",
+    "field": "_dectectHashSet",
+    "old": 80,
+    "vng": {
+      "type": "HashSet<int>",
+      "offset": 80
+    },
+    "global": {
+      "type": "HashSet<int>",
+      "offset": 80
+    },
+    "constant": "AntiCheatListener__dectectHashSet"
+  },
+  {
+    "line": 1348,
+    "namespace": "",
+    "owner": "FrameWork",
+    "field": "sysModule",
+    "old": 232,
+    "vng": {
+      "type": "ModuleSystem",
+      "offset": 232
+    },
+    "global": {
+      "type": "ModuleSystem",
+      "offset": 232
+    },
+    "constant": "FrameWork_sysModule"
+  },
+  {
+    "line": 1353,
+    "namespace": "",
+    "owner": "ModuleSystem",
+    "field": "_cheatDetectDic",
+    "old": 64,
+    "vng": {
+      "type": "Dictionary<ObscuredInt, ObscuredString>",
+      "offset": 64
+    },
+    "global": {
+      "type": "Dictionary<ObscuredInt, ObscuredString>",
+      "offset": 64
+    },
+    "constant": "ModuleSystem__cheatDetectDic"
+  },
+  {
+    "line": 2128,
+    "namespace": "",
+    "owner": "ActorSystem",
+    "field": "myActorCharacter",
+    "old": 88,
+    "vng": {
+      "type": "ActorCharacter",
+      "offset": 88
+    },
+    "global": {
+      "type": "ActorCharacter",
+      "offset": 88
+    },
+    "constant": "ActorSystem_myActorCharacter"
+  },
+  {
+    "line": 2139,
+    "namespace": "",
+    "owner": "ActorBase",
+    "field": "actorControl",
+    "old": 104,
+    "vng": {
+      "type": "IActorControl",
+      "offset": 104
+    },
+    "global": {
+      "type": "IActorControl",
+      "offset": 104
+    },
+    "constant": "ActorBase_actorControl"
+  },
+  {
+    "line": 2146,
+    "namespace": "",
+    "owner": "ActorControl",
+    "field": "actorBase",
+    "old": 64,
+    "vng": {
+      "type": "ActorBase",
+      "offset": 64
+    },
+    "global": {
+      "type": "ActorBase",
+      "offset": 64
+    },
+    "constant": "ActorControl_actorBase"
+  },
+  {
+    "line": 2160,
+    "namespace": "",
+    "owner": "ActorControl",
+    "field": "_terminate",
+    "old": 168,
+    "vng": {
+      "type": "bool",
+      "offset": 168
+    },
+    "global": {
+      "type": "bool",
+      "offset": 168
+    },
+    "constant": "ActorControl__terminate"
+  },
+  {
+    "line": 2179,
+    "namespace": "",
+    "owner": "ActorMiniGameControl",
+    "field": "<IsGoalIn>k__BackingField",
+    "old": 690,
+    "vng": {
+      "type": "bool",
+      "offset": 690
+    },
+    "global": {
+      "type": "bool",
+      "offset": 690
+    },
+    "constant": "ActorMiniGameControl__IsGoalIn_k__BackingField"
+  },
+  {
+    "line": 2187,
+    "namespace": "",
+    "owner": "ActorMiniGameControl",
+    "field": "<IsDeathInGame>k__BackingField",
+    "old": 688,
+    "vng": {
+      "type": "bool",
+      "offset": 688
+    },
+    "global": {
+      "type": "bool",
+      "offset": 688
+    },
+    "constant": "ActorMiniGameControl__IsDeathInGame_k__BackingField"
+  },
+  {
+    "line": 2196,
+    "namespace": "",
+    "owner": "ActorKMGPlayer",
+    "field": "isDie",
+    "old": 1026,
+    "vng": {
+      "type": "bool",
+      "offset": 1026
+    },
+    "global": {
+      "type": "bool",
+      "offset": 1026
+    },
+    "constant": "ActorKMGPlayer_isDie"
+  },
+  {
+    "line": 2199,
+    "namespace": "",
+    "owner": "ActorMiniGameControl",
+    "field": "<IsUserWatchMode>k__BackingField",
+    "old": 896,
+    "vng": {
+      "type": "bool",
+      "offset": 896
+    },
+    "global": {
+      "type": "bool",
+      "offset": 896
+    },
+    "constant": "ActorMiniGameControl__IsUserWatchMode_k__BackingField"
+  },
+  {
+    "line": 2202,
+    "namespace": "",
+    "owner": "ActorKMGPlayer",
+    "field": "<CurrentCharacterState>k__BackingField",
+    "old": 1024,
+    "vng": {
+      "type": "ActorKMGPlayer.eCharacterState",
+      "offset": 1024
+    },
+    "global": {
+      "type": "ActorKMGPlayer.eCharacterState",
+      "offset": 1024
+    },
+    "constant": "ActorKMGPlayer__CurrentCharacterState_k__BackingField"
+  },
+  {
+    "line": 2213,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGUnit",
+    "field": "isCurrentSuccess",
+    "old": 410,
+    "vng": {
+      "type": "bool",
+      "offset": 410
+    },
+    "global": {
+      "type": "bool",
+      "offset": 410
+    },
+    "constant": "MiniGameKMGUnit_isCurrentSuccess"
+  },
+  {
+    "line": 2213,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGUnit",
+    "field": "_targetResultStep",
+    "old": 456,
+    "vng": {
+      "type": "MiniGameKMGUnit.eResultStep",
+      "offset": 456
+    },
+    "global": {
+      "type": "MiniGameKMGUnit.eResultStep",
+      "offset": 456
+    },
+    "constant": "MiniGameKMGUnit__targetResultStep"
+  },
+  {
+    "line": 2241,
+    "namespace": "",
+    "owner": "DialogJoyStick",
+    "field": "targetActor",
+    "old": 496,
+    "vng": {
+      "type": "ActorBase",
+      "offset": 496
+    },
+    "global": {
+      "type": "ActorBase",
+      "offset": 496
+    },
+    "constant": "DialogJoyStick_targetActor"
+  },
+  {
+    "line": 2246,
+    "namespace": "",
+    "owner": "DialogJoyStick",
+    "field": "vehicleEnterMode",
+    "old": 504,
+    "vng": {
+      "type": "bool",
+      "offset": 504
+    },
+    "global": {
+      "type": "bool",
+      "offset": 504
+    },
+    "constant": "DialogJoyStick_vehicleEnterMode"
+  },
+  {
+    "line": 2247,
+    "namespace": "",
+    "owner": "DialogJoyStick",
+    "field": "_isSheetMusicMode",
+    "old": 521,
+    "vng": {
+      "type": "bool",
+      "offset": 521
+    },
+    "global": {
+      "type": "bool",
+      "offset": 521
+    },
+    "constant": "DialogJoyStick__isSheetMusicMode"
+  },
+  {
+    "line": 2248,
+    "namespace": "",
+    "owner": "DialogJoyStick",
+    "field": "onCallBackLinkAction",
+    "old": 536,
+    "vng": {
+      "type": "DialogJoyStick.CallBackLinkAction",
+      "offset": 536
+    },
+    "global": {
+      "type": "DialogJoyStick.CallBackLinkAction",
+      "offset": 536
+    },
+    "constant": "DialogJoyStick_onCallBackLinkAction"
+  },
+  {
+    "line": 2261,
+    "namespace": "",
+    "owner": "DialogJoyStick",
+    "field": "jumpButton",
+    "old": 320,
+    "vng": {
+      "type": "JoyStickButton",
+      "offset": 320
+    },
+    "global": {
+      "type": "JoyStickButton",
+      "offset": 320
+    },
+    "constant": "DialogJoyStick_jumpButton"
+  },
+  {
+    "line": 2473,
+    "namespace": "",
+    "owner": "MyHomeObjectManager",
+    "field": "loadState",
+    "old": 56,
+    "vng": {
+      "type": "MyHomeObjectManager.eLoadState",
+      "offset": 56
+    },
+    "global": {
+      "type": "MyHomeObjectManager.eLoadState",
+      "offset": 56
+    },
+    "constant": "MyHomeObjectManager_loadState"
+  },
+  {
+    "line": 2474,
+    "namespace": "",
+    "owner": "MyHomeObjectManager",
+    "field": "isCloseFlow",
+    "old": 60,
+    "vng": {
+      "type": "bool",
+      "offset": 60
+    },
+    "global": {
+      "type": "bool",
+      "offset": 60
+    },
+    "constant": "MyHomeObjectManager_isCloseFlow"
+  },
+  {
+    "line": 2491,
+    "namespace": "",
+    "owner": "FrameWork",
+    "field": "sysDialog",
+    "old": 32,
+    "vng": {
+      "type": "DialogSystem",
+      "offset": 32
+    },
+    "global": {
+      "type": "DialogSystem",
+      "offset": 32
+    },
+    "constant": "FrameWork_sysDialog"
+  },
+  {
+    "line": 2649,
+    "namespace": "",
+    "owner": "MyHomeGameManager",
+    "field": "_isReadyGame",
+    "old": 61,
+    "vng": {
+      "type": "bool",
+      "offset": 61
+    },
+    "global": {
+      "type": "bool",
+      "offset": 61
+    },
+    "constant": "MyHomeGameManager__isReadyGame"
+  },
+  {
+    "line": 2650,
+    "namespace": "",
+    "owner": "MyHomeGameManager",
+    "field": "_isLoadDialogMinigameInfo",
+    "old": 72,
+    "vng": {
+      "type": "bool",
+      "offset": 72
+    },
+    "global": {
+      "type": "bool",
+      "offset": 72
+    },
+    "constant": "MyHomeGameManager__isLoadDialogMinigameInfo"
+  },
+  {
+    "line": 2673,
+    "namespace": "",
+    "owner": "DialogMinigameSimpleInfo",
+    "field": "buttonGameReady",
+    "old": 312,
+    "vng": {
+      "type": "UIButton",
+      "offset": 312
+    },
+    "global": {
+      "type": "UIButton",
+      "offset": 312
+    },
+    "constant": "DialogMinigameSimpleInfo_buttonGameReady"
+  },
+  {
+    "line": 2686,
+    "namespace": "",
+    "owner": "DialogMinigameSimpleInfo",
+    "field": "_isReadyState",
+    "old": 355,
+    "vng": {
+      "type": "bool",
+      "offset": 355
+    },
+    "global": {
+      "type": "bool",
+      "offset": 355
+    },
+    "constant": "DialogMinigameSimpleInfo__isReadyState"
+  },
+  {
+    "line": 2687,
+    "namespace": "",
+    "owner": "DialogMinigameSimpleInfo",
+    "field": "_isLock",
+    "old": 354,
+    "vng": {
+      "type": "bool",
+      "offset": 354
+    },
+    "global": {
+      "type": "bool",
+      "offset": 354
+    },
+    "constant": "DialogMinigameSimpleInfo__isLock"
+  },
+  {
+    "line": 2688,
+    "namespace": "",
+    "owner": "DialogMinigameSimpleInfo",
+    "field": "_useTicektGame",
+    "old": 364,
+    "vng": {
+      "type": "bool",
+      "offset": 364
+    },
+    "global": {
+      "type": "bool",
+      "offset": 364
+    },
+    "constant": "DialogMinigameSimpleInfo__useTicektGame"
+  },
+  {
+    "line": 2707,
+    "namespace": "",
+    "owner": "DialogMinigameSimpleInfo",
+    "field": "_onClickGameReady",
+    "old": 368,
+    "vng": {
+      "type": "PTCallback",
+      "offset": 368
+    },
+    "global": {
+      "type": "PTCallback",
+      "offset": 368
+    },
+    "constant": "DialogMinigameSimpleInfo__onClickGameReady"
+  },
+  {
+    "line": 2739,
+    "namespace": "",
+    "owner": "DialogGroupPlay",
+    "field": "button_GameReady_Member",
+    "old": 392,
+    "vng": {
+      "type": "UIButton",
+      "offset": 392
+    },
+    "global": {
+      "type": "UIButton",
+      "offset": 392
+    },
+    "constant": "DialogGroupPlay_button_GameReady_Member"
+  },
+  {
+    "line": 2740,
+    "namespace": "",
+    "owner": "DialogGroupPlay",
+    "field": "groupType",
+    "old": 468,
+    "vng": {
+      "type": "DialogGroupPlay.eGroupType",
+      "offset": 468
+    },
+    "global": {
+      "type": "DialogGroupPlay.eGroupType",
+      "offset": 468
+    },
+    "constant": "DialogGroupPlay_groupType"
+  },
+  {
+    "line": 2741,
+    "namespace": "",
+    "owner": "DialogGroupPlay",
+    "field": "_useTicketGame",
+    "old": 472,
+    "vng": {
+      "type": "bool",
+      "offset": 472
+    },
+    "global": {
+      "type": "bool",
+      "offset": 472
+    },
+    "constant": "DialogGroupPlay__useTicketGame"
+  },
+  {
+    "line": 2815,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGDuel",
+    "field": "<IsStateAttack>k__BackingField",
+    "old": 472,
+    "vng": {
+      "type": "bool",
+      "offset": 472
+    },
+    "global": {
+      "type": "bool",
+      "offset": 472
+    },
+    "constant": "MiniGameKMGDuel__IsStateAttack_k__BackingField"
+  },
+  {
+    "line": 2821,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGDuel",
+    "field": "<IsCanAttack>k__BackingField",
+    "old": 473,
+    "vng": {
+      "type": "bool",
+      "offset": 473
+    },
+    "global": {
+      "type": "bool",
+      "offset": 473
+    },
+    "constant": "MiniGameKMGDuel__IsCanAttack_k__BackingField"
+  },
+  {
+    "line": 2827,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGDuel",
+    "field": "<CurRound>k__BackingField",
+    "old": 476,
+    "vng": {
+      "type": "uint",
+      "offset": 476
+    },
+    "global": {
+      "type": "uint",
+      "offset": 476
+    },
+    "constant": "MiniGameKMGDuel__CurRound_k__BackingField"
+  },
+  {
+    "line": 2835,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGDuel",
+    "field": "isEndGame",
+    "old": 532,
+    "vng": {
+      "type": "bool",
+      "offset": 532
+    },
+    "global": {
+      "type": "bool",
+      "offset": 532
+    },
+    "constant": "MiniGameKMGDuel_isEndGame"
+  },
+  {
+    "line": 2841,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGDuel",
+    "field": "myScore",
+    "old": 536,
+    "vng": {
+      "type": "int",
+      "offset": 536
+    },
+    "global": {
+      "type": "int",
+      "offset": 536
+    },
+    "constant": "MiniGameKMGDuel_myScore"
+  },
+  {
+    "line": 2907,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGDuel",
+    "field": "_actorDuelPlayer",
+    "old": 568,
+    "vng": {
+      "type": "ActorDuelPlayer",
+      "offset": 568
+    },
+    "global": {
+      "type": "ActorDuelPlayer",
+      "offset": 568
+    },
+    "constant": "MiniGameKMGDuel__actorDuelPlayer"
+  },
+  {
+    "line": 2918,
+    "namespace": "",
+    "owner": "ActorDuelPlayer",
+    "field": "isStun",
+    "old": 960,
+    "vng": {
+      "type": "bool",
+      "offset": 960
+    },
+    "global": {
+      "type": "bool",
+      "offset": 960
+    },
+    "constant": "ActorDuelPlayer_isStun"
+  },
+  {
+    "line": 3018,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGUnit",
+    "field": "<KMGTableID>k__BackingField",
+    "old": 272,
+    "vng": {
+      "type": "uint",
+      "offset": 272
+    },
+    "global": {
+      "type": "uint",
+      "offset": 272
+    },
+    "constant": "MiniGameKMGUnit__KMGTableID_k__BackingField"
+  },
+  {
+    "line": 3037,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameUnit",
+    "field": "currentBattleState",
+    "old": 108,
+    "vng": {
+      "type": "GameBattleState",
+      "offset": 108
+    },
+    "global": {
+      "type": "GameBattleState",
+      "offset": 108
+    },
+    "constant": "MiniGameUnit_currentBattleState"
+  },
+  {
+    "line": 3054,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGUnit",
+    "field": "hideObjectManager",
+    "old": 320,
+    "vng": {
+      "type": "HideObjectManager",
+      "offset": 320
+    },
+    "global": {
+      "type": "HideObjectManager",
+      "offset": 320
+    },
+    "constant": "MiniGameKMGUnit_hideObjectManager"
+  },
+  {
+    "line": 3068,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideStampObjectData",
+    "field": "<ObjectCollider>k__BackingField",
+    "old": 64,
+    "vng": {
+      "type": "Collider",
+      "offset": 64
+    },
+    "global": {
+      "type": "Collider",
+      "offset": 64
+    },
+    "constant": "HideStampObjectData__ObjectCollider_k__BackingField"
+  },
+  {
+    "line": 3084,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideStampObjectData",
+    "field": "_curHideState",
+    "old": 88,
+    "vng": {
+      "type": "HideObjectState",
+      "offset": 88
+    },
+    "global": {
+      "type": "HideObjectState",
+      "offset": 88
+    },
+    "constant": "HideStampObjectData__curHideState"
+  },
+  {
+    "line": 3097,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideStampObjectData",
+    "field": "ObjectRenderer",
+    "old": 48,
+    "vng": {
+      "type": "MeshRenderer",
+      "offset": 48
+    },
+    "global": {
+      "type": "MeshRenderer",
+      "offset": 48
+    },
+    "constant": "HideStampObjectData_ObjectRenderer"
+  },
+  {
+    "line": 3185,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideObjectManager",
+    "field": "BoardRootTransform",
+    "old": 168,
+    "vng": {
+      "type": "Transform",
+      "offset": 168
+    },
+    "global": {
+      "type": "Transform",
+      "offset": 168
+    },
+    "constant": "HideObjectManager_BoardRootTransform"
+  },
+  {
+    "line": 3195,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideObjectManager",
+    "field": "hideStampGameObjectList",
+    "old": 64,
+    "vng": {
+      "type": "List<HideStampObjectData>",
+      "offset": 64
+    },
+    "global": {
+      "type": "List<HideStampObjectData>",
+      "offset": 64
+    },
+    "constant": "HideObjectManager_hideStampGameObjectList"
+  },
+  {
+    "line": 3223,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideStampObjectData",
+    "field": "StableStateObject",
+    "old": 72,
+    "vng": {
+      "type": "GameObject",
+      "offset": 72
+    },
+    "global": {
+      "type": "GameObject",
+      "offset": 72
+    },
+    "constant": "HideStampObjectData_StableStateObject"
+  },
+  {
+    "line": 3243,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideStampObjectData",
+    "field": "StableStateObject",
+    "old": 72,
+    "vng": {
+      "type": "GameObject",
+      "offset": 72
+    },
+    "global": {
+      "type": "GameObject",
+      "offset": 72
+    },
+    "constant": "HideStampObjectData_StableStateObject"
+  },
+  {
+    "line": 3302,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideObjectManager",
+    "field": "hideGameObjectList",
+    "old": 56,
+    "vng": {
+      "type": "List<GameObject>",
+      "offset": 56
+    },
+    "global": {
+      "type": "List<GameObject>",
+      "offset": 56
+    },
+    "constant": "HideObjectManager_hideGameObjectList"
+  },
+  {
+    "line": 3455,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideObjectManager",
+    "field": "hideGameObjectList",
+    "old": 56,
+    "vng": {
+      "type": "List<GameObject>",
+      "offset": 56
+    },
+    "global": {
+      "type": "List<GameObject>",
+      "offset": 56
+    },
+    "constant": "HideObjectManager_hideGameObjectList"
+  },
+  {
+    "line": 3720,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideStampObjectData",
+    "field": "ObjectRenderer",
+    "old": 48,
+    "vng": {
+      "type": "MeshRenderer",
+      "offset": 48
+    },
+    "global": {
+      "type": "MeshRenderer",
+      "offset": 48
+    },
+    "constant": "HideStampObjectData_ObjectRenderer"
+  },
+  {
+    "line": 3758,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideObjectManager",
+    "field": "hideStampGameObjectList",
+    "old": 64,
+    "vng": {
+      "type": "List<HideStampObjectData>",
+      "offset": 64
+    },
+    "global": {
+      "type": "List<HideStampObjectData>",
+      "offset": 64
+    },
+    "constant": "HideObjectManager_hideStampGameObjectList"
+  },
+  {
+    "line": 3857,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideStampObjectData",
+    "field": "_maxStep",
+    "old": 224,
+    "vng": {
+      "type": "int",
+      "offset": 224
+    },
+    "global": {
+      "type": "int",
+      "offset": 224
+    },
+    "constant": "HideStampObjectData__maxStep"
+  },
+  {
+    "line": 3887,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGTwistRoad",
+    "field": "endPointGo",
+    "old": 472,
+    "vng": {
+      "type": "GameObject",
+      "offset": 472
+    },
+    "global": {
+      "type": "GameObject",
+      "offset": 472
+    },
+    "constant": "MiniGameKMGTwistRoad_endPointGo"
+  },
+  {
+    "line": 3892,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideObjectManager",
+    "field": "EndPoint",
+    "old": 184,
+    "vng": {
+      "type": "GameObject",
+      "offset": 184
+    },
+    "global": {
+      "type": "GameObject",
+      "offset": 184
+    },
+    "constant": "HideObjectManager_EndPoint"
+  },
+  {
+    "line": 4012,
+    "namespace": "",
+    "owner": "ActorControl",
+    "field": "kunit",
+    "old": 160,
+    "vng": {
+      "type": "KinematicControllerUnit",
+      "offset": 160
+    },
+    "global": {
+      "type": "KinematicControllerUnit",
+      "offset": 160
+    },
+    "constant": "ActorControl_kunit"
+  },
+  {
+    "line": 4015,
+    "namespace": "PlayTogether.Kinematic",
+    "owner": "KinematicControllerUnit",
+    "field": "Motor",
+    "old": 32,
+    "vng": {
+      "type": "KinematicCharacterMotor",
+      "offset": 32
+    },
+    "global": {
+      "type": "KinematicCharacterMotor",
+      "offset": 32
+    },
+    "constant": "KinematicControllerUnit_Motor"
+  },
+  {
+    "line": 4020,
+    "namespace": "KinematicCharacterController",
+    "owner": "KinematicCharacterMotor",
+    "field": "CapsuleRadius",
+    "old": 40,
+    "vng": {
+      "type": "float",
+      "offset": 40
+    },
+    "global": {
+      "type": "float",
+      "offset": 40
+    },
+    "constant": "KinematicCharacterMotor_CapsuleRadius"
+  },
+  {
+    "line": 4023,
+    "namespace": "KinematicCharacterController",
+    "owner": "KinematicCharacterMotor",
+    "field": "CapsuleHeight",
+    "old": 44,
+    "vng": {
+      "type": "float",
+      "offset": 44
+    },
+    "global": {
+      "type": "float",
+      "offset": 44
+    },
+    "constant": "KinematicCharacterMotor_CapsuleHeight"
+  },
+  {
+    "line": 4026,
+    "namespace": "KinematicCharacterController",
+    "owner": "KinematicCharacterMotor",
+    "field": "CollidableLayers",
+    "old": 240,
+    "vng": {
+      "type": "LayerMask",
+      "offset": 240
+    },
+    "global": {
+      "type": "LayerMask",
+      "offset": 240
+    },
+    "constant": "KinematicCharacterMotor_CollidableLayers"
+  },
+  {
+    "line": 4042,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGFogMaze",
+    "field": "FogManager",
+    "old": 472,
+    "vng": {
+      "type": "FowManager",
+      "offset": 472
+    },
+    "global": {
+      "type": "FowManager",
+      "offset": 472
+    },
+    "constant": "MiniGameKMGFogMaze_FogManager"
+  },
+  {
+    "line": 4044,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGFogMaze",
+    "field": "EndPointGo",
+    "old": 480,
+    "vng": {
+      "type": "GameObject",
+      "offset": 480
+    },
+    "global": {
+      "type": "GameObject",
+      "offset": 480
+    },
+    "constant": "MiniGameKMGFogMaze_EndPointGo"
+  },
+  {
+    "line": 4048,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideObjectManager",
+    "field": "EndPoint",
+    "old": 184,
+    "vng": {
+      "type": "GameObject",
+      "offset": 184
+    },
+    "global": {
+      "type": "GameObject",
+      "offset": 184
+    },
+    "constant": "HideObjectManager_EndPoint"
+  },
+  {
+    "line": 4056,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "FowManager",
+    "field": "EndingPoint",
+    "old": 128,
+    "vng": {
+      "type": "Transform",
+      "offset": 128
+    },
+    "global": {
+      "type": "Transform",
+      "offset": 128
+    },
+    "constant": "FowManager_EndingPoint"
+  },
+  {
+    "line": 4070,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "FowManager",
+    "field": "StartingPoint",
+    "old": 120,
+    "vng": {
+      "type": "Transform",
+      "offset": 120
+    },
+    "global": {
+      "type": "Transform",
+      "offset": 120
+    },
+    "constant": "FowManager_StartingPoint"
+  },
+  {
+    "line": 4138,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideObjectManager",
+    "field": "hideGameObjectList",
+    "old": 56,
+    "vng": {
+      "type": "List<GameObject>",
+      "offset": 56
+    },
+    "global": {
+      "type": "List<GameObject>",
+      "offset": 56
+    },
+    "constant": "HideObjectManager_hideGameObjectList"
+  },
+  {
+    "line": 4440,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGUnit",
+    "field": "endKeppRoot",
+    "old": 312,
+    "vng": {
+      "type": "GameObject",
+      "offset": 312
+    },
+    "global": {
+      "type": "GameObject",
+      "offset": 312
+    },
+    "constant": "MiniGameKMGUnit_endKeppRoot"
+  },
+  {
+    "line": 4446,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGCrossyRoad",
+    "field": "StageManager",
+    "old": 472,
+    "vng": {
+      "type": "CrossyRoadStageManager",
+      "offset": 472
+    },
+    "global": {
+      "type": "CrossyRoadStageManager",
+      "offset": 472
+    },
+    "constant": "MiniGameKMGCrossyRoad_StageManager"
+  },
+  {
+    "line": 4449,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "CrossyRoadStageManager",
+    "field": "GoalStageRoot",
+    "old": 32,
+    "vng": {
+      "type": "Transform",
+      "offset": 32
+    },
+    "global": {
+      "type": "Transform",
+      "offset": 32
+    },
+    "constant": "CrossyRoadStageManager_GoalStageRoot"
+  },
+  {
+    "line": 4457,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "HideObjectManager",
+    "field": "EndPoint",
+    "old": 184,
+    "vng": {
+      "type": "GameObject",
+      "offset": 184
+    },
+    "global": {
+      "type": "GameObject",
+      "offset": 184
+    },
+    "constant": "HideObjectManager_EndPoint"
+  },
+  {
+    "line": 4493,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGFogMaze",
+    "field": "headUpLandMark",
+    "old": 488,
+    "vng": {
+      "type": "HeadUpLandMark",
+      "offset": 488
+    },
+    "global": {
+      "type": "HeadUpLandMark",
+      "offset": 488
+    },
+    "constant": "MiniGameKMGFogMaze_headUpLandMark"
+  },
+  {
+    "line": 4494,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGCrossyRoad",
+    "field": "headUpLandMark",
+    "old": 480,
+    "vng": {
+      "type": "HeadUpLandMark",
+      "offset": 480
+    },
+    "global": {
+      "type": "HeadUpLandMark",
+      "offset": 480
+    },
+    "constant": "MiniGameKMGCrossyRoad_headUpLandMark"
+  },
+  {
+    "line": 4495,
+    "namespace": "PlayTogether.MiniGame",
+    "owner": "MiniGameKMGTwistRoad",
+    "field": "headUpLandMark",
+    "old": 504,
+    "vng": {
+      "type": "HeadUpLandMark",
+      "offset": 504
+    },
+    "global": {
+      "type": "HeadUpLandMark",
+      "offset": 504
+    },
+    "constant": "MiniGameKMGTwistRoad_headUpLandMark"
+  },
+  {
+    "line": 4499,
+    "namespace": "",
+    "owner": "HeadUp",
+    "field": "mainCamera",
+    "old": 144,
+    "vng": {
+      "type": "Camera",
+      "offset": 144
+    },
+    "global": {
+      "type": "Camera",
+      "offset": 144
+    },
+    "constant": "HeadUp_mainCamera"
+  },
+  {
+    "line": 4509,
+    "namespace": "Cinemachine",
+    "owner": "CinemachineBrain",
+    "field": "m_OutputCamera",
+    "old": 80,
+    "vng": {
+      "type": "Camera",
+      "offset": 80
+    },
+    "global": {
+      "type": "Camera",
+      "offset": 80
+    },
+    "constant": "CinemachineBrain_m_OutputCamera"
+  },
+  {
+    "line": 4525,
+    "namespace": "",
+    "owner": "IMap",
+    "field": "cinemachineBrain",
+    "old": 64,
+    "vng": {
+      "type": "CinemachineBrain",
+      "offset": 72
+    },
+    "global": {
+      "type": "CinemachineBrain",
+      "offset": 72
+    },
+    "constant": "IMap_cinemachineBrain"
+  },
+  {
+    "line": 4528,
+    "namespace": "Cinemachine",
+    "owner": "CinemachineBrain",
+    "field": "m_OutputCamera",
+    "old": 80,
+    "vng": {
+      "type": "Camera",
+      "offset": 80
+    },
+    "global": {
+      "type": "Camera",
+      "offset": 80
+    },
+    "constant": "CinemachineBrain_m_OutputCamera"
+  },
+  {
+    "line": 4802,
+    "namespace": "",
+    "owner": "ActorBase",
+    "field": "<SUID>k__BackingField",
+    "old": 40,
+    "vng": {
+      "type": "long",
+      "offset": 40
+    },
+    "global": {
+      "type": "long",
+      "offset": 40
+    },
+    "constant": "ActorBase__SUID_k__BackingField"
+  },
+  {
+    "line": 2346,
+    "namespace": "",
+    "owner": "ActorMiniGameControl",
+    "field": "<IsCanJump>k__BackingField",
+    "old": 681,
+    "vng": {
+      "type": "bool",
+      "offset": 681
+    },
+    "global": {
+      "type": "bool",
+      "offset": 681
+    },
+    "constant": "ActorMiniGameControl__IsCanJump_k__BackingField"
+  },
+  {
+    "line": 2346,
+    "namespace": "",
+    "owner": "ActorDefaultControlPlayer",
+    "field": "_isCamJump",
+    "old": 1251,
+    "vng": {
+      "type": "bool",
+      "offset": 1251
+    },
+    "global": {
+      "type": "bool",
+      "offset": 1251
+    },
+    "constant": "ActorDefaultControlPlayer__isCamJump"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "bundle": "com.vng.playtogether",
+  "version": "2.33.1",
+  "build": "232546",
+  "framework_uuid": "56b9c25802a936b18ad75e38c67dd370",
+  "native_binary_verified": true,
+  "clients": {
+    "vng": {
+      "bundle": "com.vng.playtogether",
+      "executable": "PLAYTOGETHERVNG",
+      "version": "2.33.1",
+      "build": "232546",
+      "dump_sha256": "e05827bfd4bdbb3830eab34c0ed4c36185c72840e82a52bbfe3ace4375a29a77",
+      "plist_sha256": "9b67b8187834b1722b33a21da65edc54a50eadfb581a94e01c379f36af3aa76f",
+      "framework_uuid": "56b9c25802a936b18ad75e38c67dd370",
+      "framework_sha256": "200abdb842e278eea42e671a67f12967be9dd33bac1890c07f2d8213db0fe943",
+      "metadata_sha256": null,
+      "framework_size": 226837840
+    },
+    "global": {
+      "bundle": "com.haegin.playtogether",
+      "executable": "PLAYTOGETHER",
+      "version": "2.33.1",
+      "build": "232546",
+      "dump_sha256": "c10ab6d6ecba4cba38b4a4f3d6f7414ffe57b1c93acf6ca1110ed665c3b75c6a",
+      "plist_sha256": "4a5313b259457271725706eb308ce4ef3f89c40e72ee30c5688e307442c138ee",
+      "framework_uuid": "509b4c13a6ef393ead2bd36ef6f88ae5",
+      "framework_sha256": "1b70957720466ad6b890932ec27dda2727da49244fee03e3009f7df386c7d6df",
+      "metadata_sha256": null,
+      "framework_size": 229999280
+    }
+  },
+  "verification_scope": "supplied framework identity, exported APIs, selected text spans; no device execution"
+}

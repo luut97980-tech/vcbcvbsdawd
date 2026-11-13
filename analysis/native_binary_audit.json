@@ -1,0 +1,1036 @@
+{
+  "global": {
+    "input_file": "UnityFramework",
+    "framework_uuid": "509b4c13a6ef393ead2bd36ef6f88ae5",
+    "framework_sha256": "1b70957720466ad6b890932ec27dda2727da49244fee03e3009f7df386c7d6df",
+    "framework_size": 229999280,
+    "encrypted": false,
+    "required_exports": {
+      "array_length": true,
+      "array_new": true,
+      "array_object_header_size": true,
+      "assembly_get_image": true,
+      "class_from_name": true,
+      "class_get_field_from_name": true,
+      "class_get_method_from_name": true,
+      "class_get_name": true,
+      "class_get_namespace": true,
+      "class_get_parent": true,
+      "domain_get": true,
+      "domain_get_assemblies": true,
+      "field_get_type": true,
+      "field_get_value": true,
+      "field_static_get_value": true,
+      "gchandle_free": true,
+      "gchandle_get_target": true,
+      "gchandle_new": true,
+      "image_get_name": true,
+      "object_get_class": true,
+      "object_unbox": true,
+      "runtime_invoke": true,
+      "thread_attach": true,
+      "thread_current": true,
+      "thread_detach": true,
+      "type_get_type": true
+    },
+    "optional_exports": {
+      "class_get_fields": true,
+      "class_get_methods": true,
+      "class_get_type": true,
+      "field_get_flags": true,
+      "field_get_name": true,
+      "field_get_offset": true,
+      "field_set_value": true,
+      "field_static_set_value": true,
+      "method_get_name": true,
+      "method_get_param": true,
+      "method_get_param_count": true,
+      "method_is_generic": true,
+      "type_get_object": true
+    },
+    "methods": [
+      {
+        "client": "global",
+        "namespace": "",
+        "class": "ActorSystem",
+        "signature": "public ActorCharacter get_MyActorCharacter()",
+        "old_rva": "0x3788ae0",
+        "rva": "0x39b0e44",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "002c40f9c0035fd6003040f9c0035fd6",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "global",
+        "namespace": "",
+        "class": "ActorSystem",
+        "signature": "public Dictionary<long, ActorCharacter> get_OtherActorCharacter()",
+        "old_rva": "0x3788af8",
+        "rva": "0x39b0e5c",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "003840f9c0035fd6003c40f9c0035fd6",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "global",
+        "namespace": "UnityEngine",
+        "class": "Camera",
+        "signature": "public static Camera get_main()",
+        "old_rva": "0xa0c6bbc",
+        "rva": "0xa35d010",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091d3880190",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "global",
+        "namespace": "UnityEngine",
+        "class": "Camera",
+        "signature": "public Vector3 WorldToViewportPoint(Vector3 position, Camera.MonoOrStereoscopicEye eye)",
+        "old_rva": "0xa0c5510",
+        "rva": "0xa35b964",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "ff4301d1f65702a9f44f03a9fd7b04a9",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "global",
+        "namespace": "UnityEngine",
+        "class": "Camera",
+        "signature": "public Vector3 WorldToViewportPoint(Vector3 position)",
+        "old_rva": "0xa0c59b4",
+        "rva": "0xa35be08",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "ff0301d1f44f02a9fd7b03a9fdc30091",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "global",
+        "namespace": "UnityEngine",
+        "class": "Transform",
+        "signature": "public Vector3 get_position()",
+        "old_rva": "0xa1878b0",
+        "rva": "0xa41dd04",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "ffc300d1f44f01a9fd7b02a9fd830091",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "global",
+        "namespace": "",
+        "class": "ActorControl",
+        "signature": "public virtual void OnJump()",
+        "old_rva": "0x3446d24",
+        "rva": "0x3756bf4",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "c0035fd6c0035fd6c0035fd6c0035fd6",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "global",
+        "namespace": "",
+        "class": "ActorDefaultControlPlayer",
+        "signature": "public override void OnJump()",
+        "old_rva": "0x372ea40",
+        "rva": "0x3956018",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "f44fbea9fd7b01a9fd43009108404039",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "global",
+        "namespace": "",
+        "class": "ActorMiniGameControl",
+        "signature": "public override void OnJump()",
+        "old_rva": "0x3808f9c",
+        "rva": "0x3a4c86c",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      }
+    ],
+    "dynamic_target_spans": [
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public bool get_IsCheating()",
+        "rva": "0x32487d4",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "private bool CheckDetect(AntiCheatListener.HType type)",
+        "rva": "0x3248828",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnSpeedHackDetected()",
+        "rva": "0x32488d4",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnSpeedHackDetectedGpresto()",
+        "rva": "0x324895c",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnTimeCheatingDetected()",
+        "rva": "0x32489f0",
+        "native_prefix_hex": "410080528dffff17f44fbea9fd7b01a9"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnObscuredTypeCheatingDetected()",
+        "rva": "0x32489f8",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnTableCheatingDetected(string ment = \"\")",
+        "rva": "0x3248a80",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnOtherCheatingDetected(AntiCheatListener.HType otherNo, string ment = \"\")",
+        "rva": "0x3248aec",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnAnimationSpeedCheatDetect(AnimancerState state)",
+        "rva": "0x3248b8c",
+        "native_prefix_hex": "ff8301d1e923016df85f02a9f65703a9"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "private void LateUpdate()",
+        "rva": "0x3248ebc",
+        "native_prefix_hex": "ff8301d1e923026df65703a9f44f04a9"
+      },
+      {
+        "namespace": "",
+        "class": "ModuleSystem",
+        "signature": "private void ModuleReceiveCB(int idx, string ment = \"\")",
+        "rva": "0x314f8ec",
+        "native_prefix_hex": "ff4301d1f85f01a9f65702a9f44f03a9"
+      },
+      {
+        "namespace": "",
+        "class": "ModuleSystem",
+        "signature": "private void CheckCheatDetect()",
+        "rva": "0x3150614",
+        "native_prefix_hex": "ff8302d1e923046dfa6705a9f85f06a9"
+      },
+      {
+        "namespace": "PlayTogether.Network.Native",
+        "class": "NetNativeProtocol",
+        "signature": "public void SendToCheatDetect(int type, string comment)",
+        "rva": "0x37db650",
+        "native_prefix_hex": "ff4301d1f85f01a9f65702a9f44f03a9"
+      },
+      {
+        "namespace": "PlayTogether.Network.Native",
+        "class": "NetNativeProtocol",
+        "signature": "public void PID_CHEAT_HackDetection(Protocol protocol)",
+        "rva": "0x37db7b0",
+        "native_prefix_hex": "f85fbca9f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "KinematicCharacterController",
+        "class": "KinematicCharacterMotor",
+        "signature": "public bool get_CheatDetect()",
+        "rva": "0x33ed2bc",
+        "native_prefix_hex": "08300491080140f9011441b9e00308aa"
+      },
+      {
+        "namespace": "KinematicCharacterController",
+        "class": "KinematicCharacterMotor",
+        "signature": "public void set_CheatDetect(bool value)",
+        "rva": "0x33ed384",
+        "native_prefix_hex": "ff4301d1e923016df65702a9f44f03a9"
+      },
+      {
+        "namespace": "",
+        "class": "ActorControl",
+        "signature": "public virtual void SetCheatDetect()",
+        "rva": "0x37575cc",
+        "native_prefix_hex": "c0035fd600f04439c0035fd608f04439"
+      },
+      {
+        "namespace": "",
+        "class": "ActorCharacterControl",
+        "signature": "public override void SetCheatDetect()",
+        "rva": "0x3a44834",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "VehicleControl",
+        "signature": "public override void SetCheatDetect()",
+        "rva": "0x3ad450c",
+        "native_prefix_hex": "fd7bbfa9fd030091010080d2f405f297"
+      },
+      {
+        "namespace": "",
+        "class": "BoardMiniGamePlinko",
+        "signature": "private void OnCheatDetected(string message)",
+        "rva": "0x3d4bab4",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "BoardMiniGamePlinko",
+        "signature": "private void CheckPhysicsValues()",
+        "rva": "0x3d4b5c8",
+        "native_prefix_hex": "fc6fbaa9fa6701a9f85f02a9f65703a9"
+      },
+      {
+        "namespace": "",
+        "class": "SpeedHackScanner",
+        "signature": "private void Update()",
+        "rva": "0x2cbf5d4",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "",
+        "class": "SpeedHackScanner",
+        "signature": "private void OnApplicationPause(bool pause)",
+        "rva": "0x2cbf54c",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "SpeedHackScanner",
+        "signature": "private void OnApplicationFocus(bool hasFocus)",
+        "rva": "0x2cbf4c4",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "GPresto.Protector",
+        "class": "SpeedHack",
+        "signature": "public static bool IsDetect()",
+        "rva": "0x8aedc08",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "GPresto.Protector.Engine",
+        "class": "GPrestoEngine",
+        "signature": "public static bool IsDetect()",
+        "rva": "0x8b044a4",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091344b02b0"
+      },
+      {
+        "namespace": "GPresto.Protector.Engine",
+        "class": "GPrestoEngine",
+        "signature": "public static void SendDetectionLog(int type_code)",
+        "rva": "0x8aed7bc",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "GPresto.Protector.Engine",
+        "class": "GPrestoIOS",
+        "signature": "public bool SendDetectionLog(int type_code)",
+        "rva": "0x8b034b0",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Time",
+        "class": "SpeedHackProofTime",
+        "signature": "private void OnSpeedHackDetected()",
+        "rva": "0x2b91170",
+        "native_prefix_hex": "ff0301d1f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "SpeedHackDetector",
+        "signature": "private void Update()",
+        "rva": "0x2bcc800",
+        "native_prefix_hex": "eb2bb96de923016dfa6702a9f85f03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "SpeedHackDetector",
+        "signature": "public void TriggerDetection()",
+        "rva": "0x2bcc5fc",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd43009133440590"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "SpeedHackDetector",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": "0x2bccb60",
+        "native_prefix_hex": "005440bd02704139036040b9010080d2"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "SpeedHackDetector",
+        "signature": "private bool IsTicksCheated(long ticks, ref long previousTicks, long reliableDelta)",
+        "rva": "0x2bccac0",
+        "native_prefix_hex": "f85fbca9f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "TimeCheatingDetector",
+        "signature": "private void Update()",
+        "rva": "0x2bcd048",
+        "native_prefix_hex": "e923bc6df65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "TimeCheatingDetector",
+        "signature": "public void TriggerDetection()",
+        "rva": "0x2bce97c",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091134405d0"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "TimeCheatingDetector",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": "0x2bcef50",
+        "native_prefix_hex": "007040bd010080d263f9ff17f657bda9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "TimeCheatingDetector",
+        "signature": "public bool ForceCheck()",
+        "rva": "0x2bceb04",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "TimeCheatingDetector",
+        "signature": "public bool IsReadyForForceCheck()",
+        "rva": "0x2bceb98",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "WallHackDetector",
+        "signature": "private void Update()",
+        "rva": "0x2bd49f4",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "WallHackDetector",
+        "signature": "private void FixedUpdate()",
+        "rva": "0x2bd4858",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "WallHackDetector",
+        "signature": "public void TriggerDetection()",
+        "rva": "0x2bd44c8",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f3430590"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "WallHackDetector",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": "0x2bd4bf4",
+        "native_prefix_hex": "00844e2d027c40bd02004239010080d2"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "WallHackDetector",
+        "signature": "private bool Detect()",
+        "rva": "0x2bd4998",
+        "native_prefix_hex": "09744439080042393f01086b48010054"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "InjectionDetector",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": "0x2bcad60",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091344405d0"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "InjectionDetector",
+        "signature": "public static void StartDetection()",
+        "rva": "0x2bcab10",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091344405d0"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "InjectionDetector",
+        "signature": "public static void StartDetection(Action<string> callback)",
+        "rva": "0x2bcaba4",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091344405d0"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "ObscuredCheatingDetector",
+        "signature": "public void TriggerDetection()",
+        "rva": "0x2bcb874",
+        "native_prefix_hex": "f85fbca9f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "ObscuredCheatingDetector",
+        "signature": "internal void OnCheatingDetected(IObscuredType type, object decrypted, object fake)",
+        "rva": "0x2bcba04",
+        "native_prefix_hex": "f85fbca9f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "ObscuredCheatingDetector",
+        "signature": "internal void OnCheatingDetected(IObscuredType type, bool hashValid, object decrypted, object fake)",
+        "rva": "0x2bcbae4",
+        "native_prefix_hex": "f85fbca9f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "ObscuredCheatingDetector",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": "0x2bcbbc4",
+        "native_prefix_hex": "010080d2d2fdff1700904139c0035fd6"
+      }
+    ],
+    "decoded_getters": {
+      "ActorSystem.myActorCharacter": "LDR X0,[X0,#0x58]; RET",
+      "ActorSystem.otherActorCharacter": "LDR X0,[X0,#0x70]; RET"
+    },
+    "device_tested": false
+  },
+  "vng": {
+    "input_file": "UnityFramework(1)",
+    "framework_uuid": "56b9c25802a936b18ad75e38c67dd370",
+    "framework_sha256": "200abdb842e278eea42e671a67f12967be9dd33bac1890c07f2d8213db0fe943",
+    "framework_size": 226837840,
+    "encrypted": false,
+    "required_exports": {
+      "array_length": true,
+      "array_new": true,
+      "array_object_header_size": true,
+      "assembly_get_image": true,
+      "class_from_name": true,
+      "class_get_field_from_name": true,
+      "class_get_method_from_name": true,
+      "class_get_name": true,
+      "class_get_namespace": true,
+      "class_get_parent": true,
+      "domain_get": true,
+      "domain_get_assemblies": true,
+      "field_get_type": true,
+      "field_get_value": true,
+      "field_static_get_value": true,
+      "gchandle_free": true,
+      "gchandle_get_target": true,
+      "gchandle_new": true,
+      "image_get_name": true,
+      "object_get_class": true,
+      "object_unbox": true,
+      "runtime_invoke": true,
+      "thread_attach": true,
+      "thread_current": true,
+      "thread_detach": true,
+      "type_get_type": true
+    },
+    "optional_exports": {
+      "class_get_fields": true,
+      "class_get_methods": true,
+      "class_get_type": true,
+      "field_get_flags": true,
+      "field_get_name": true,
+      "field_get_offset": true,
+      "field_set_value": true,
+      "field_static_set_value": true,
+      "method_get_name": true,
+      "method_get_param": true,
+      "method_get_param_count": true,
+      "method_is_generic": true,
+      "type_get_object": true
+    },
+    "methods": [
+      {
+        "client": "vng",
+        "namespace": "",
+        "class": "ActorSystem",
+        "signature": "public ActorCharacter get_MyActorCharacter()",
+        "old_rva": "0x3788ae0",
+        "rva": "0x37c2520",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "002c40f9c0035fd6003040f9c0035fd6",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "vng",
+        "namespace": "",
+        "class": "ActorSystem",
+        "signature": "public Dictionary<long, ActorCharacter> get_OtherActorCharacter()",
+        "old_rva": "0x3788af8",
+        "rva": "0x37c2538",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "003840f9c0035fd6003c40f9c0035fd6",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "vng",
+        "namespace": "UnityEngine",
+        "class": "Camera",
+        "signature": "public static Camera get_main()",
+        "old_rva": "0xa0c6bbc",
+        "rva": "0xa16ef0c",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "f44fbea9fd7b01a9fd43009193820190",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "vng",
+        "namespace": "UnityEngine",
+        "class": "Camera",
+        "signature": "public Vector3 WorldToViewportPoint(Vector3 position, Camera.MonoOrStereoscopicEye eye)",
+        "old_rva": "0xa0c5510",
+        "rva": "0xa16d860",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "ff4301d1f65702a9f44f03a9fd7b04a9",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "vng",
+        "namespace": "UnityEngine",
+        "class": "Camera",
+        "signature": "public Vector3 WorldToViewportPoint(Vector3 position)",
+        "old_rva": "0xa0c59b4",
+        "rva": "0xa16dd04",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "ff0301d1f44f02a9fd7b03a9fdc30091",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "vng",
+        "namespace": "UnityEngine",
+        "class": "Transform",
+        "signature": "public Vector3 get_position()",
+        "old_rva": "0xa1878b0",
+        "rva": "0xa22fc00",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "ffc300d1f44f01a9fd7b02a9fd830091",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "vng",
+        "namespace": "",
+        "class": "ActorControl",
+        "signature": "public virtual void OnJump()",
+        "old_rva": "0x3446d24",
+        "rva": "0x35682d0",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "c0035fd6c0035fd6c0035fd6c0035fd6",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "vng",
+        "namespace": "",
+        "class": "ActorDefaultControlPlayer",
+        "signature": "public override void OnJump()",
+        "old_rva": "0x372ea40",
+        "rva": "0x37676f4",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "f44fbea9fd7b01a9fd43009108404039",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      },
+      {
+        "client": "vng",
+        "namespace": "",
+        "class": "ActorMiniGameControl",
+        "signature": "public override void OnJump()",
+        "old_rva": "0x3808f9c",
+        "rva": "0x385df48",
+        "native_bytes_verified": true,
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091",
+        "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call",
+        "evidence": "dump RVA mapped to __TEXT bytes; identity anchored by ActorSystem getters"
+      }
+    ],
+    "dynamic_target_spans": [
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public bool get_IsCheating()",
+        "rva": "0x3065d88",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "private bool CheckDetect(AntiCheatListener.HType type)",
+        "rva": "0x3065ddc",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnSpeedHackDetected()",
+        "rva": "0x3065e88",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnSpeedHackDetectedGpresto()",
+        "rva": "0x3065f10",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnTimeCheatingDetected()",
+        "rva": "0x3065fa4",
+        "native_prefix_hex": "410080528dffff17f44fbea9fd7b01a9"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnObscuredTypeCheatingDetected()",
+        "rva": "0x3065fac",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnTableCheatingDetected(string ment = \"\")",
+        "rva": "0x3066034",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnOtherCheatingDetected(AntiCheatListener.HType otherNo, string ment = \"\")",
+        "rva": "0x30660a0",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "public void OnAnimationSpeedCheatDetect(AnimancerState state)",
+        "rva": "0x3066140",
+        "native_prefix_hex": "ff8301d1e923016df85f02a9f65703a9"
+      },
+      {
+        "namespace": "",
+        "class": "AntiCheatListener",
+        "signature": "private void LateUpdate()",
+        "rva": "0x3066470",
+        "native_prefix_hex": "ff8301d1e923026df65703a9f44f04a9"
+      },
+      {
+        "namespace": "",
+        "class": "ModuleSystem",
+        "signature": "private void ModuleReceiveCB(int idx, string ment = \"\")",
+        "rva": "0x2f6aca0",
+        "native_prefix_hex": "ff4301d1f85f01a9f65702a9f44f03a9"
+      },
+      {
+        "namespace": "",
+        "class": "ModuleSystem",
+        "signature": "private void CheckCheatDetect()",
+        "rva": "0x2f6b9c8",
+        "native_prefix_hex": "ff8302d1e923046dfa6705a9f85f06a9"
+      },
+      {
+        "namespace": "PlayTogether.Network.Native",
+        "class": "NetNativeProtocol",
+        "signature": "public void SendToCheatDetect(int type, string comment)",
+        "rva": "0x35ecd2c",
+        "native_prefix_hex": "ff4301d1f85f01a9f65702a9f44f03a9"
+      },
+      {
+        "namespace": "PlayTogether.Network.Native",
+        "class": "NetNativeProtocol",
+        "signature": "public void PID_CHEAT_HackDetection(Protocol protocol)",
+        "rva": "0x35ece8c",
+        "native_prefix_hex": "f85fbca9f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "KinematicCharacterController",
+        "class": "KinematicCharacterMotor",
+        "signature": "public bool get_CheatDetect()",
+        "rva": "0x3209c4c",
+        "native_prefix_hex": "08300491080140f9011441b9e00308aa"
+      },
+      {
+        "namespace": "KinematicCharacterController",
+        "class": "KinematicCharacterMotor",
+        "signature": "public void set_CheatDetect(bool value)",
+        "rva": "0x3209d14",
+        "native_prefix_hex": "ff4301d1e923016df65702a9f44f03a9"
+      },
+      {
+        "namespace": "",
+        "class": "ActorControl",
+        "signature": "public virtual void SetCheatDetect()",
+        "rva": "0x3568ca8",
+        "native_prefix_hex": "c0035fd600f04439c0035fd608f04439"
+      },
+      {
+        "namespace": "",
+        "class": "ActorCharacterControl",
+        "signature": "public override void SetCheatDetect()",
+        "rva": "0x3855f10",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "VehicleControl",
+        "signature": "public override void SetCheatDetect()",
+        "rva": "0x38e5be8",
+        "native_prefix_hex": "fd7bbfa9fd030091010080d2f405f297"
+      },
+      {
+        "namespace": "",
+        "class": "BoardMiniGamePlinko",
+        "signature": "private void OnCheatDetected(string message)",
+        "rva": "0x3b5d190",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "BoardMiniGamePlinko",
+        "signature": "private void CheckPhysicsValues()",
+        "rva": "0x3b5cca4",
+        "native_prefix_hex": "fc6fbaa9fa6701a9f85f02a9f65703a9"
+      },
+      {
+        "namespace": "",
+        "class": "SpeedHackScanner",
+        "signature": "private void Update()",
+        "rva": "0x2adacc0",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "",
+        "class": "SpeedHackScanner",
+        "signature": "private void OnApplicationPause(bool pause)",
+        "rva": "0x2adac38",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "",
+        "class": "SpeedHackScanner",
+        "signature": "private void OnApplicationFocus(bool hasFocus)",
+        "rva": "0x2adabb0",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "GPresto.Protector",
+        "class": "SpeedHack",
+        "signature": "public static bool IsDetect()",
+        "rva": "0x88fe30c",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "GPresto.Protector.Engine",
+        "class": "GPrestoEngine",
+        "signature": "public static bool IsDetect()",
+        "rva": "0x8914ba8",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f44402d0"
+      },
+      {
+        "namespace": "GPresto.Protector.Engine",
+        "class": "GPrestoEngine",
+        "signature": "public static void SendDetectionLog(int type_code)",
+        "rva": "0x88fdec0",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "GPresto.Protector.Engine",
+        "class": "GPrestoIOS",
+        "signature": "public bool SendDetectionLog(int type_code)",
+        "rva": "0x8913bb4",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Time",
+        "class": "SpeedHackProofTime",
+        "signature": "private void OnSpeedHackDetected()",
+        "rva": "0x29ac85c",
+        "native_prefix_hex": "ff0301d1f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "SpeedHackDetector",
+        "signature": "private void Update()",
+        "rva": "0x29e7eec",
+        "native_prefix_hex": "eb2bb96de923016dfa6702a9f85f03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "SpeedHackDetector",
+        "signature": "public void TriggerDetection()",
+        "rva": "0x29e7ce8",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091933d05d0"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "SpeedHackDetector",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": "0x29e824c",
+        "native_prefix_hex": "005440bd02704139036040b9010080d2"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "SpeedHackDetector",
+        "signature": "private bool IsTicksCheated(long ticks, ref long previousTicks, long reliableDelta)",
+        "rva": "0x29e81ac",
+        "native_prefix_hex": "f85fbca9f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "TimeCheatingDetector",
+        "signature": "private void Update()",
+        "rva": "0x29e8734",
+        "native_prefix_hex": "e923bc6df65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "TimeCheatingDetector",
+        "signature": "public void TriggerDetection()",
+        "rva": "0x29ea068",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091733d05f0"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "TimeCheatingDetector",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": "0x29ea63c",
+        "native_prefix_hex": "007040bd010080d263f9ff17f657bda9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "TimeCheatingDetector",
+        "signature": "public bool ForceCheck()",
+        "rva": "0x29ea1f0",
+        "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "TimeCheatingDetector",
+        "signature": "public bool IsReadyForForceCheck()",
+        "rva": "0x29ea284",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "WallHackDetector",
+        "signature": "private void Update()",
+        "rva": "0x29f00e0",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "WallHackDetector",
+        "signature": "private void FixedUpdate()",
+        "rva": "0x29eff44",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091f30300aa"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "WallHackDetector",
+        "signature": "public void TriggerDetection()",
+        "rva": "0x29efbb4",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091533d05d0"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "WallHackDetector",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": "0x29f02e0",
+        "native_prefix_hex": "00844e2d027c40bd02004239010080d2"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "WallHackDetector",
+        "signature": "private bool Detect()",
+        "rva": "0x29f0084",
+        "native_prefix_hex": "09744439080042393f01086b48010054"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "InjectionDetector",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": "0x29e644c",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091943d05f0"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "InjectionDetector",
+        "signature": "public static void StartDetection()",
+        "rva": "0x29e61fc",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091943d05f0"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "InjectionDetector",
+        "signature": "public static void StartDetection(Action<string> callback)",
+        "rva": "0x29e6290",
+        "native_prefix_hex": "f44fbea9fd7b01a9fd430091943d05f0"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "ObscuredCheatingDetector",
+        "signature": "public void TriggerDetection()",
+        "rva": "0x29e6f60",
+        "native_prefix_hex": "f85fbca9f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "ObscuredCheatingDetector",
+        "signature": "internal void OnCheatingDetected(IObscuredType type, object decrypted, object fake)",
+        "rva": "0x29e70f0",
+        "native_prefix_hex": "f85fbca9f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "ObscuredCheatingDetector",
+        "signature": "internal void OnCheatingDetected(IObscuredType type, bool hashValid, object decrypted, object fake)",
+        "rva": "0x29e71d0",
+        "native_prefix_hex": "f85fbca9f65701a9f44f02a9fd7b03a9"
+      },
+      {
+        "namespace": "CodeStage.AntiCheat.Detectors",
+        "class": "ObscuredCheatingDetector",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": "0x29e72b0",
+        "native_prefix_hex": "010080d2d2fdff1700904139c0035fd6"
+      }
+    ],
+    "decoded_getters": {
+      "ActorSystem.myActorCharacter": "LDR X0,[X0,#0x58]; RET",
+      "ActorSystem.otherActorCharacter": "LDR X0,[X0,#0x70]; RET"
+    },
+    "device_tested": false
+  }
+}

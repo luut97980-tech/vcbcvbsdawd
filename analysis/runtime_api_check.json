@@ -1,0 +1,16 @@
+{
+  "global": {
+    "required_api_count": 26,
+    "all_required_exports_present": true,
+    "all_optional_exports_present": true,
+    "framework_sha256": "1b70957720466ad6b890932ec27dda2727da49244fee03e3009f7df386c7d6df",
+    "device_tested": false
+  },
+  "vng": {
+    "required_api_count": 26,
+    "all_required_exports_present": true,
+    "all_optional_exports_present": true,
+    "framework_sha256": "200abdb842e278eea42e671a67f12967be9dd33bac1890c07f2d8213db0fe943",
+    "device_tested": false
+  }
+}

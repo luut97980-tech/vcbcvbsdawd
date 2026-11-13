@@ -1,0 +1,200 @@
+[
+  {
+    "client": "vng",
+    "namespace": "",
+    "class": "ActorSystem",
+    "signature": "public ActorCharacter get_MyActorCharacter()",
+    "old_rva": "0x3788ae0",
+    "rva": "0x37c2520",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "002c40f9c0035fd6003040f9c0035fd6",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "vng",
+    "namespace": "",
+    "class": "ActorSystem",
+    "signature": "public Dictionary<long, ActorCharacter> get_OtherActorCharacter()",
+    "old_rva": "0x3788af8",
+    "rva": "0x37c2538",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "003840f9c0035fd6003c40f9c0035fd6",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "vng",
+    "namespace": "UnityEngine",
+    "class": "Camera",
+    "signature": "public static Camera get_main()",
+    "old_rva": "0xa0c6bbc",
+    "rva": "0xa16ef0c",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "f44fbea9fd7b01a9fd43009193820190",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "vng",
+    "namespace": "UnityEngine",
+    "class": "Camera",
+    "signature": "public Vector3 WorldToViewportPoint(Vector3 position, Camera.MonoOrStereoscopicEye eye)",
+    "old_rva": "0xa0c5510",
+    "rva": "0xa16d860",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "ff4301d1f65702a9f44f03a9fd7b04a9",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "vng",
+    "namespace": "UnityEngine",
+    "class": "Camera",
+    "signature": "public Vector3 WorldToViewportPoint(Vector3 position)",
+    "old_rva": "0xa0c59b4",
+    "rva": "0xa16dd04",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "ff0301d1f44f02a9fd7b03a9fdc30091",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "vng",
+    "namespace": "UnityEngine",
+    "class": "Transform",
+    "signature": "public Vector3 get_position()",
+    "old_rva": "0xa1878b0",
+    "rva": "0xa22fc00",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "ffc300d1f44f01a9fd7b02a9fd830091",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "vng",
+    "namespace": "",
+    "class": "ActorControl",
+    "signature": "public virtual void OnJump()",
+    "old_rva": "0x3446d24",
+    "rva": "0x35682d0",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "c0035fd6c0035fd6c0035fd6c0035fd6",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "vng",
+    "namespace": "",
+    "class": "ActorDefaultControlPlayer",
+    "signature": "public override void OnJump()",
+    "old_rva": "0x372ea40",
+    "rva": "0x37676f4",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "f44fbea9fd7b01a9fd43009108404039",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "vng",
+    "namespace": "",
+    "class": "ActorMiniGameControl",
+    "signature": "public override void OnJump()",
+    "old_rva": "0x3808f9c",
+    "rva": "0x385df48",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "global",
+    "namespace": "",
+    "class": "ActorSystem",
+    "signature": "public ActorCharacter get_MyActorCharacter()",
+    "old_rva": "0x3788ae0",
+    "rva": "0x39b0e44",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "002c40f9c0035fd6003040f9c0035fd6",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "global",
+    "namespace": "",
+    "class": "ActorSystem",
+    "signature": "public Dictionary<long, ActorCharacter> get_OtherActorCharacter()",
+    "old_rva": "0x3788af8",
+    "rva": "0x39b0e5c",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "003840f9c0035fd6003c40f9c0035fd6",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "global",
+    "namespace": "UnityEngine",
+    "class": "Camera",
+    "signature": "public static Camera get_main()",
+    "old_rva": "0xa0c6bbc",
+    "rva": "0xa35d010",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "f44fbea9fd7b01a9fd430091d3880190",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "global",
+    "namespace": "UnityEngine",
+    "class": "Camera",
+    "signature": "public Vector3 WorldToViewportPoint(Vector3 position, Camera.MonoOrStereoscopicEye eye)",
+    "old_rva": "0xa0c5510",
+    "rva": "0xa35b964",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "ff4301d1f65702a9f44f03a9fd7b04a9",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "global",
+    "namespace": "UnityEngine",
+    "class": "Camera",
+    "signature": "public Vector3 WorldToViewportPoint(Vector3 position)",
+    "old_rva": "0xa0c59b4",
+    "rva": "0xa35be08",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "ff0301d1f44f02a9fd7b03a9fdc30091",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "global",
+    "namespace": "UnityEngine",
+    "class": "Transform",
+    "signature": "public Vector3 get_position()",
+    "old_rva": "0xa1878b0",
+    "rva": "0xa41dd04",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "ffc300d1f44f01a9fd7b02a9fd830091",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "global",
+    "namespace": "",
+    "class": "ActorControl",
+    "signature": "public virtual void OnJump()",
+    "old_rva": "0x3446d24",
+    "rva": "0x3756bf4",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "c0035fd6c0035fd6c0035fd6c0035fd6",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "global",
+    "namespace": "",
+    "class": "ActorDefaultControlPlayer",
+    "signature": "public override void OnJump()",
+    "old_rva": "0x372ea40",
+    "rva": "0x3956018",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "f44fbea9fd7b01a9fd43009108404039",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  },
+  {
+    "client": "global",
+    "namespace": "",
+    "class": "ActorMiniGameControl",
+    "signature": "public override void OnJump()",
+    "old_rva": "0x3808f9c",
+    "rva": "0x3a4c86c",
+    "native_bytes_verified": true,
+    "native_prefix_hex": "f657bda9f44f01a9fd7b02a9fd830091",
+    "verification_scope": "RVA mapped to supplied __TEXT span; no runtime call"
+  }
+]

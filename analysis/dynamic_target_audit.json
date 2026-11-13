@@ -1,0 +1,1082 @@
+[
+  {
+    "namespace": "",
+    "class": "AntiCheatListener",
+    "method": "get_IsCheating",
+    "return": "Bool",
+    "vng": [
+      {
+        "name": "get_IsCheating",
+        "signature": "public bool get_IsCheating()",
+        "rva": 50748808,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "get_IsCheating",
+        "signature": "public bool get_IsCheating()",
+        "rva": 52725716,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "AntiCheatListener",
+    "method": "CheckDetect",
+    "return": "Bool",
+    "vng": [
+      {
+        "name": "CheckDetect",
+        "signature": "private bool CheckDetect(AntiCheatListener.HType type)",
+        "rva": 50748892,
+        "params": "AntiCheatListener.HType type"
+      }
+    ],
+    "global": [
+      {
+        "name": "CheckDetect",
+        "signature": "private bool CheckDetect(AntiCheatListener.HType type)",
+        "rva": 52725800,
+        "params": "AntiCheatListener.HType type"
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "AntiCheatListener",
+    "method": "OnSpeedHackDetected",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnSpeedHackDetected",
+        "signature": "public void OnSpeedHackDetected()",
+        "rva": 50749064,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "OnSpeedHackDetected",
+        "signature": "public void OnSpeedHackDetected()",
+        "rva": 52725972,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "AntiCheatListener",
+    "method": "OnSpeedHackDetectedGpresto",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnSpeedHackDetectedGpresto",
+        "signature": "public void OnSpeedHackDetectedGpresto()",
+        "rva": 50749200,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "OnSpeedHackDetectedGpresto",
+        "signature": "public void OnSpeedHackDetectedGpresto()",
+        "rva": 52726108,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "AntiCheatListener",
+    "method": "OnTimeCheatingDetected",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnTimeCheatingDetected",
+        "signature": "public void OnTimeCheatingDetected()",
+        "rva": 50749348,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "OnTimeCheatingDetected",
+        "signature": "public void OnTimeCheatingDetected()",
+        "rva": 52726256,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "AntiCheatListener",
+    "method": "OnObscuredTypeCheatingDetected",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnObscuredTypeCheatingDetected",
+        "signature": "public void OnObscuredTypeCheatingDetected()",
+        "rva": 50749356,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "OnObscuredTypeCheatingDetected",
+        "signature": "public void OnObscuredTypeCheatingDetected()",
+        "rva": 52726264,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "AntiCheatListener",
+    "method": "OnTableCheatingDetected",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnTableCheatingDetected",
+        "signature": "public void OnTableCheatingDetected(string ment = \"\")",
+        "rva": 50749492,
+        "params": "string ment = \"\""
+      }
+    ],
+    "global": [
+      {
+        "name": "OnTableCheatingDetected",
+        "signature": "public void OnTableCheatingDetected(string ment = \"\")",
+        "rva": 52726400,
+        "params": "string ment = \"\""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "AntiCheatListener",
+    "method": "OnOtherCheatingDetected",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnOtherCheatingDetected",
+        "signature": "public void OnOtherCheatingDetected(AntiCheatListener.HType otherNo, string ment = \"\")",
+        "rva": 50749600,
+        "params": "AntiCheatListener.HType otherNo, string ment = \"\""
+      }
+    ],
+    "global": [
+      {
+        "name": "OnOtherCheatingDetected",
+        "signature": "public void OnOtherCheatingDetected(AntiCheatListener.HType otherNo, string ment = \"\")",
+        "rva": 52726508,
+        "params": "AntiCheatListener.HType otherNo, string ment = \"\""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "AntiCheatListener",
+    "method": "OnAnimationSpeedCheatDetect",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnAnimationSpeedCheatDetect",
+        "signature": "public void OnAnimationSpeedCheatDetect(AnimancerState state)",
+        "rva": 50749760,
+        "params": "AnimancerState state"
+      }
+    ],
+    "global": [
+      {
+        "name": "OnAnimationSpeedCheatDetect",
+        "signature": "public void OnAnimationSpeedCheatDetect(AnimancerState state)",
+        "rva": 52726668,
+        "params": "AnimancerState state"
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "AntiCheatListener",
+    "method": "LateUpdate",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "LateUpdate",
+        "signature": "private void LateUpdate()",
+        "rva": 50750576,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "LateUpdate",
+        "signature": "private void LateUpdate()",
+        "rva": 52727484,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "ModuleSystem",
+    "method": "ModuleReceiveCB",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "ModuleReceiveCB",
+        "signature": "private void ModuleReceiveCB(int idx, string ment = \"\")",
+        "rva": 49720480,
+        "params": "int idx, string ment = \"\""
+      }
+    ],
+    "global": [
+      {
+        "name": "ModuleReceiveCB",
+        "signature": "private void ModuleReceiveCB(int idx, string ment = \"\")",
+        "rva": 51706092,
+        "params": "int idx, string ment = \"\""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "ModuleSystem",
+    "method": "CheckCheatDetect",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "CheckCheatDetect",
+        "signature": "private void CheckCheatDetect()",
+        "rva": 49723848,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "CheckCheatDetect",
+        "signature": "private void CheckCheatDetect()",
+        "rva": 51709460,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "PlayTogether.Network.Native",
+    "class": "NetNativeProtocol",
+    "method": "SendToCheatDetect",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "SendToCheatDetect",
+        "signature": "public void SendToCheatDetect(int type, string comment)",
+        "rva": 56544556,
+        "params": "int type, string comment"
+      }
+    ],
+    "global": [
+      {
+        "name": "SendToCheatDetect",
+        "signature": "public void SendToCheatDetect(int type, string comment)",
+        "rva": 58570320,
+        "params": "int type, string comment"
+      }
+    ]
+  },
+  {
+    "namespace": "PlayTogether.Network.Native",
+    "class": "NetNativeProtocol",
+    "method": "PID_CHEAT_HackDetection",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "PID_CHEAT_HackDetection",
+        "signature": "public void PID_CHEAT_HackDetection(Protocol protocol)",
+        "rva": 56544908,
+        "params": "Protocol protocol"
+      }
+    ],
+    "global": [
+      {
+        "name": "PID_CHEAT_HackDetection",
+        "signature": "public void PID_CHEAT_HackDetection(Protocol protocol)",
+        "rva": 58570672,
+        "params": "Protocol protocol"
+      }
+    ]
+  },
+  {
+    "namespace": "KinematicCharacterController",
+    "class": "KinematicCharacterMotor",
+    "method": "get_CheatDetect",
+    "return": "Bool",
+    "vng": [
+      {
+        "name": "get_CheatDetect",
+        "signature": "public bool get_CheatDetect()",
+        "rva": 52468812,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "get_CheatDetect",
+        "signature": "public bool get_CheatDetect()",
+        "rva": 54448828,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "KinematicCharacterController",
+    "class": "KinematicCharacterMotor",
+    "method": "set_CheatDetect",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "set_CheatDetect",
+        "signature": "public void set_CheatDetect(bool value)",
+        "rva": 52469012,
+        "params": "bool value"
+      }
+    ],
+    "global": [
+      {
+        "name": "set_CheatDetect",
+        "signature": "public void set_CheatDetect(bool value)",
+        "rva": 54449028,
+        "params": "bool value"
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "ActorControl",
+    "method": "SetCheatDetect",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "SetCheatDetect",
+        "signature": "public virtual void SetCheatDetect()",
+        "rva": 56003752,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "SetCheatDetect",
+        "signature": "public virtual void SetCheatDetect()",
+        "rva": 58029516,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "ActorCharacterControl",
+    "method": "SetCheatDetect",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "SetCheatDetect",
+        "signature": "public override void SetCheatDetect()",
+        "rva": 59072272,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "SetCheatDetect",
+        "signature": "public override void SetCheatDetect()",
+        "rva": 61098036,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "VehicleControl",
+    "method": "SetCheatDetect",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "SetCheatDetect",
+        "signature": "public override void SetCheatDetect()",
+        "rva": 59661288,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "SetCheatDetect",
+        "signature": "public override void SetCheatDetect()",
+        "rva": 61687052,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "BoardMiniGamePlinko",
+    "method": "OnCheatDetected",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnCheatDetected",
+        "signature": "private void OnCheatDetected(string message)",
+        "rva": 62247312,
+        "params": "string message"
+      }
+    ],
+    "global": [
+      {
+        "name": "OnCheatDetected",
+        "signature": "private void OnCheatDetected(string message)",
+        "rva": 64273076,
+        "params": "string message"
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "BoardMiniGamePlinko",
+    "method": "CheckPhysicsValues",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "CheckPhysicsValues",
+        "signature": "private void CheckPhysicsValues()",
+        "rva": 62246052,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "CheckPhysicsValues",
+        "signature": "private void CheckPhysicsValues()",
+        "rva": 64271816,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "SpeedHackScanner",
+    "method": "Update",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "Update",
+        "signature": "private void Update()",
+        "rva": 44936384,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "Update",
+        "signature": "private void Update()",
+        "rva": 46921172,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "SpeedHackScanner",
+    "method": "OnApplicationPause",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnApplicationPause",
+        "signature": "private void OnApplicationPause(bool pause)",
+        "rva": 44936248,
+        "params": "bool pause"
+      }
+    ],
+    "global": [
+      {
+        "name": "OnApplicationPause",
+        "signature": "private void OnApplicationPause(bool pause)",
+        "rva": 46921036,
+        "params": "bool pause"
+      }
+    ]
+  },
+  {
+    "namespace": "",
+    "class": "SpeedHackScanner",
+    "method": "OnApplicationFocus",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnApplicationFocus",
+        "signature": "private void OnApplicationFocus(bool hasFocus)",
+        "rva": 44936112,
+        "params": "bool hasFocus"
+      }
+    ],
+    "global": [
+      {
+        "name": "OnApplicationFocus",
+        "signature": "private void OnApplicationFocus(bool hasFocus)",
+        "rva": 46920900,
+        "params": "bool hasFocus"
+      }
+    ]
+  },
+  {
+    "namespace": "GPresto.Protector",
+    "class": "SpeedHack",
+    "method": "IsDetect",
+    "return": "Bool",
+    "vng": [
+      {
+        "name": "IsDetect",
+        "signature": "public static bool IsDetect()",
+        "rva": 143647500,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "IsDetect",
+        "signature": "public static bool IsDetect()",
+        "rva": 145677320,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "GPresto.Protector.Engine",
+    "class": "GPrestoEngine",
+    "method": "IsDetect",
+    "return": "Bool",
+    "vng": [
+      {
+        "name": "IsDetect",
+        "signature": "public static bool IsDetect()",
+        "rva": 143739816,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "IsDetect",
+        "signature": "public static bool IsDetect()",
+        "rva": 145769636,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "GPresto.Protector.Engine",
+    "class": "GPrestoEngine",
+    "method": "SendDetectionLog",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "SendDetectionLog",
+        "signature": "public static void SendDetectionLog(int type_code)",
+        "rva": 143646400,
+        "params": "int type_code"
+      }
+    ],
+    "global": [
+      {
+        "name": "SendDetectionLog",
+        "signature": "public static void SendDetectionLog(int type_code)",
+        "rva": 145676220,
+        "params": "int type_code"
+      }
+    ]
+  },
+  {
+    "namespace": "GPresto.Protector.Engine",
+    "class": "GPrestoIOS",
+    "method": "SendDetectionLog",
+    "return": "Bool",
+    "vng": [
+      {
+        "name": "SendDetectionLog",
+        "signature": "public bool SendDetectionLog(int type_code)",
+        "rva": 143735732,
+        "params": "int type_code"
+      }
+    ],
+    "global": [
+      {
+        "name": "SendDetectionLog",
+        "signature": "public bool SendDetectionLog(int type_code)",
+        "rva": 145765552,
+        "params": "int type_code"
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Time",
+    "class": "SpeedHackProofTime",
+    "method": "OnSpeedHackDetected",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnSpeedHackDetected",
+        "signature": "private void OnSpeedHackDetected()",
+        "rva": 43698268,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "OnSpeedHackDetected",
+        "signature": "private void OnSpeedHackDetected()",
+        "rva": 45683056,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "SpeedHackDetector",
+    "method": "Update",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "Update",
+        "signature": "private void Update()",
+        "rva": 43941612,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "Update",
+        "signature": "private void Update()",
+        "rva": 45926400,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "SpeedHackDetector",
+    "method": "TriggerDetection",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "TriggerDetection",
+        "signature": "public void TriggerDetection()",
+        "rva": 43941096,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "TriggerDetection",
+        "signature": "public void TriggerDetection()",
+        "rva": 45925884,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "SpeedHackDetector",
+    "method": "StartDetectionAutomatically",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "StartDetectionAutomatically",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": 43942476,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "StartDetectionAutomatically",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": 45927264,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "SpeedHackDetector",
+    "method": "IsTicksCheated",
+    "return": "Bool",
+    "vng": [
+      {
+        "name": "IsTicksCheated",
+        "signature": "private bool IsTicksCheated(long ticks, ref long previousTicks, long reliableDelta)",
+        "rva": 43942316,
+        "params": "long ticks, ref long previousTicks, long reliableDelta"
+      }
+    ],
+    "global": [
+      {
+        "name": "IsTicksCheated",
+        "signature": "private bool IsTicksCheated(long ticks, ref long previousTicks, long reliableDelta)",
+        "rva": 45927104,
+        "params": "long ticks, ref long previousTicks, long reliableDelta"
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "TimeCheatingDetector",
+    "method": "Update",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "Update",
+        "signature": "private void Update()",
+        "rva": 43943732,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "Update",
+        "signature": "private void Update()",
+        "rva": 45928520,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "TimeCheatingDetector",
+    "method": "TriggerDetection",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "TriggerDetection",
+        "signature": "public void TriggerDetection()",
+        "rva": 43950184,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "TriggerDetection",
+        "signature": "public void TriggerDetection()",
+        "rva": 45934972,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "TimeCheatingDetector",
+    "method": "StartDetectionAutomatically",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "StartDetectionAutomatically",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": 43951676,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "StartDetectionAutomatically",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": 45936464,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "TimeCheatingDetector",
+    "method": "ForceCheck",
+    "return": "Bool",
+    "vng": [
+      {
+        "name": "ForceCheck",
+        "signature": "public bool ForceCheck()",
+        "rva": 43950576,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "ForceCheck",
+        "signature": "public bool ForceCheck()",
+        "rva": 45935364,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "TimeCheatingDetector",
+    "method": "IsReadyForForceCheck",
+    "return": "Bool",
+    "vng": [
+      {
+        "name": "IsReadyForForceCheck",
+        "signature": "public bool IsReadyForForceCheck()",
+        "rva": 43950724,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "IsReadyForForceCheck",
+        "signature": "public bool IsReadyForForceCheck()",
+        "rva": 45935512,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "WallHackDetector",
+    "method": "Update",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "Update",
+        "signature": "private void Update()",
+        "rva": 43974880,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "Update",
+        "signature": "private void Update()",
+        "rva": 45959668,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "WallHackDetector",
+    "method": "FixedUpdate",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "FixedUpdate",
+        "signature": "private void FixedUpdate()",
+        "rva": 43974468,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "FixedUpdate",
+        "signature": "private void FixedUpdate()",
+        "rva": 45959256,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "WallHackDetector",
+    "method": "TriggerDetection",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "TriggerDetection",
+        "signature": "public void TriggerDetection()",
+        "rva": 43973556,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "TriggerDetection",
+        "signature": "public void TriggerDetection()",
+        "rva": 45958344,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "WallHackDetector",
+    "method": "StartDetectionAutomatically",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "StartDetectionAutomatically",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": 43975392,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "StartDetectionAutomatically",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": 45960180,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "WallHackDetector",
+    "method": "Detect",
+    "return": "Bool",
+    "vng": [
+      {
+        "name": "Detect",
+        "signature": "private bool Detect()",
+        "rva": 43974788,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "Detect",
+        "signature": "private bool Detect()",
+        "rva": 45959576,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "InjectionDetector",
+    "method": "StartDetectionAutomatically",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "StartDetectionAutomatically",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": 43934796,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "StartDetectionAutomatically",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": 45919584,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "InjectionDetector",
+    "method": "StartDetection",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "StartDetection",
+        "signature": "public static void StartDetection()",
+        "rva": 43934204,
+        "params": ""
+      },
+      {
+        "name": "StartDetection",
+        "signature": "public static void StartDetection(Action<string> callback)",
+        "rva": 43934352,
+        "params": "Action<string> callback"
+      }
+    ],
+    "global": [
+      {
+        "name": "StartDetection",
+        "signature": "public static void StartDetection()",
+        "rva": 45918992,
+        "params": ""
+      },
+      {
+        "name": "StartDetection",
+        "signature": "public static void StartDetection(Action<string> callback)",
+        "rva": 45919140,
+        "params": "Action<string> callback"
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "ObscuredCheatingDetector",
+    "method": "TriggerDetection",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "TriggerDetection",
+        "signature": "public void TriggerDetection()",
+        "rva": 43937632,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "TriggerDetection",
+        "signature": "public void TriggerDetection()",
+        "rva": 45922420,
+        "params": ""
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "ObscuredCheatingDetector",
+    "method": "OnCheatingDetected",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "OnCheatingDetected",
+        "signature": "internal void OnCheatingDetected(IObscuredType type, object decrypted, object fake)",
+        "rva": 43938032,
+        "params": "IObscuredType type, object decrypted, object fake"
+      },
+      {
+        "name": "OnCheatingDetected",
+        "signature": "internal void OnCheatingDetected(IObscuredType type, bool hashValid, object decrypted, object fake)",
+        "rva": 43938256,
+        "params": "IObscuredType type, bool hashValid, object decrypted, object fake"
+      }
+    ],
+    "global": [
+      {
+        "name": "OnCheatingDetected",
+        "signature": "internal void OnCheatingDetected(IObscuredType type, object decrypted, object fake)",
+        "rva": 45922820,
+        "params": "IObscuredType type, object decrypted, object fake"
+      },
+      {
+        "name": "OnCheatingDetected",
+        "signature": "internal void OnCheatingDetected(IObscuredType type, bool hashValid, object decrypted, object fake)",
+        "rva": 45923044,
+        "params": "IObscuredType type, bool hashValid, object decrypted, object fake"
+      }
+    ]
+  },
+  {
+    "namespace": "CodeStage.AntiCheat.Detectors",
+    "class": "ObscuredCheatingDetector",
+    "method": "StartDetectionAutomatically",
+    "return": "Void",
+    "vng": [
+      {
+        "name": "StartDetectionAutomatically",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": 43938480,
+        "params": ""
+      }
+    ],
+    "global": [
+      {
+        "name": "StartDetectionAutomatically",
+        "signature": "protected override void StartDetectionAutomatically()",
+        "rva": 45923268,
+        "params": ""
+      }
+    ]
+  }
+]

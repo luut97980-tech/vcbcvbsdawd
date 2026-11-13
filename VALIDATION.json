@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "unique_fields": 74,
+  "source_bindings": 82,
+  "method_rva_entries": 18,
+  "dynamic_targets_per_client": 48,
+  "static_fields": 4,
+  "clients": [
+    "vng",
+    "global"
+  ],
+  "native_binary_verified": true,
+  "version": "2.33.1",
+  "build": "232546",
+  "portable_cpp_tests": {
+    "backend_api": "passed",
+    "app_metadata": "passed",
+    "mobile_ui": "passed",
+    "native_profile": "passed"
+  },
+  "python_ipa_tests": {
+    "passed": 20
+  },
+  "native_ios_build": false,
+  "device_tested": false,
+  "binary_instruction_verification": "selected __TEXT spans and two decoded getters per client; not full semantic/runtime verification",
+  "changed_numeric_game_fields": [
+    {
+      "field": "IMap.cinemachineBrain",
+      "old": "0x40",
+      "new": "0x48",
+      "clients": [
+        "vng",
+        "global"
+      ]
+    }
+  ],
+  "note": "Portable C++ tests and simulated IPA fixtures are not an iOS runtime test.",
+  "native_framework_profiles": {
+    "global": {
+      "uuid": "509b4c13a6ef393ead2bd36ef6f88ae5",
+      "sha256": "1b70957720466ad6b890932ec27dda2727da49244fee03e3009f7df386c7d6df",
+      "required_exports": 26,
+      "optional_exports_present": true,
+      "guard_spans": 9,
+      "dynamic_spans": 50
+    },
+    "vng": {
+      "uuid": "56b9c25802a936b18ad75e38c67dd370",
+      "sha256": "200abdb842e278eea42e671a67f12967be9dd33bac1890c07f2d8213db0fe943",
+      "required_exports": 26,
+      "optional_exports_present": true,
+      "guard_spans": 9,
+      "dynamic_spans": 50
+    }
+  },
+  "metadata_hash_verified": false,
+  "license_endpoint_update": {
+    "endpoint": "http://40.160.135.244:10005/",
+    "socket_updated": true,
+    "urlsession_updated": true,
+    "old_endpoint_absent_from_Plugin_mm": true,
+    "live_activation_tested": false
+  }
+}
